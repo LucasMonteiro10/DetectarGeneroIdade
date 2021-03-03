@@ -65,9 +65,12 @@ function verificar()
         }
         
         res.style.textAlign = 'center';
+
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
         res.appendChild(img);
         //Adicionou o elemento img a div com id res armazenado na variavel res
+
+        img.style.borderRadius = "50%";
 
     }
 }

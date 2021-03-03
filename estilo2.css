@@ -26,3 +26,7 @@ footer{
     text-align: center;
     font-style:italic;
 }
+
+#res > img{
+    padding: 20px;
+}
